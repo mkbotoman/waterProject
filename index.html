@@ -1,0 +1,41 @@
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>wtrsmrtr: A platform for distributed stormwater monitoring and active control</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+</head>
+
+<body>
+<div class="site-wrapper">
+    <div class="site-wrapper-inner">
+        <div class="cover-container">
+	        <div class="inner cover">
+	            <h1 class="cover-heading">HydroWatch</h1>
+	            <p class="lead">A platform for distributed stormwater monitoring and active control</p>
+	            <p class="lead">
+	              	<a href="mailto:aganti7@gmail.com" class="btn btn-lg btn-primary">Learn more</a>
+	            </p>
+	            <a href="#content"><img class="down" src="img/down.png" /></a>
+	        </div>
+	        <div id="content" class="content">
+	        	<div class="textual">
+	        		<h2>About the project</h2>
+					As an end-to-end demonstration, I will show autonomous routing of a water input to one of several outputs based on the sensed input quality, external environmental conditions and a set of reconfigurable rules. In addition to sensors connected serially by the GPIO pins, the device will receive data over 6LoWPAN from local wireless sensors. I will then show two-way communication via Modbus over TCP / IP with a "modeled" SCADA operator.
+					<br><br>
+					To begin with, I've restricted the scope of the project by not addressing security concerns of Modbus over the public IP or potential attacks through the 6LoWPAN network, assuming available 120VAC power, and assuming access to Ethernet. I don't feel like this severely detracts from the project and feel confident that I can defend such a prototype and speak to the necessary extensions to address these concerns. I also plan to stick with using the Raspberry Pi because of wide community support and successfully demonstrated software stacks that I plan to use. For the sake of rapid prototyping in a 10 week period, I feel like this too is a defensible decision.
+				</div>
+	          	<div class="mastfoot">
+		            <div class="inner">
+		              <p>Check out my progress on <a href="https://github.com/songsforthedeaf">Github</a></p>
+		              <small>© Copyright 2015, Anil Ganti</small>
+		            </div>
+	          	</div>
+	        </div>
+        </div>
+      </div>
+    </div>
+</body>
